@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">FoodHub</div>
+            <ul class="menu">
+                <li><a href="cart.jsp">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="./addtocart">
+    <div>
+        <div class="menu-item">
+            <img src="BIRYANI.jpg">
+            <h3>BIRYANI</h3>
+            <p>Cost: Rs.250</p>
+            <input type="number" name="biryani" id="biryani" value="0" min="0">
+        </div>
+        
+        <div class="menu-item">
+            <img src="KADHAI CHICKEN.jpg">
+            <h3>KADHAI CHICKEN</h3>
+            <p>Cost: 180</p>
+            <input type="number" name="chicken" id="chicken" value="0" min="0">
+        </div>
+
+        <div class="menu-item">
+            <img src="BUTTER NAAN.jpg">
+            <h3>BUTTER NAAN</h3>
+            <p>Cost: 30</p>
+            <input type="number" name="naan" id="naan" value="0" min="0">
+        </div>
+
+        <div class="menu-item">
+            <img src="BURGER.jpg">
+            <h3>BURGER</h3>
+            <p>Cost: 150</p>
+            <input type="number" name="burger" id="burger" value="0" min="0">
+        </div>
+
+        <div class="menu-item">
+            <img src="PIZZA.jpg">
+            <h3>PIZZA</h3>
+            <p>Cost: 400</p>
+            <input type="number" name="pizza" id="pizza" value="0" min="0">
+        </div>
+
+        <div class="menu-item">
+            <img src="COKE.jpg">
+            <h3>COKE</h3>
+            <p>Cost: 50</p>
+            <input type="number" name="coke" id="coke" value="0" min="0">
+        </div>
+
+    </div>
+    <button type="submit" id="add-to-cart">Add Items</button>
+    </form>
+</body>
+</html>
